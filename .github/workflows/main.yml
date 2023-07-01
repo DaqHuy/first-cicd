@@ -27,6 +27,6 @@ jobs:
         with:
           context: ./
           push: true
-          tags: ${{ secrets.DOCKERHUB_USER }}/cicdtest
+          tags: ${{ secrets.DOCKERHUB_USER }}/cicdtest:test
           file: ./Dockerfile
           builder: ${{ steps.meta.outputs.name }}
