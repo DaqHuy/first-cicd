@@ -4,6 +4,6 @@ const server = http.createServer((req, res) => {
   res.end("Hello kube\n")
 });
 
-server.listen(4000, () => {
-  console.log("Server listen on port 4000")
+server.listen(3000, () => {
+  console.log("Server listen on port 3000")
 })
