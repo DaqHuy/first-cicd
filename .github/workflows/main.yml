@@ -23,6 +23,7 @@ jobs:
       #    images: js/testcicd
           
       - name: Build and push Docker image
+        id: meta
         uses: docker/build-push-action@v4
         with:
           context: ./
